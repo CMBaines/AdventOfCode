@@ -5,7 +5,7 @@ def part1Parse():
 
 
 def part2Parse():
-    ret = input.replace("one", "o1e")
+    ret = input.replace("one", "o1 e")
     ret = ret.replace("two", "t2")
     ret = ret.replace("three", "t3e")
     ret = ret.replace("four", "4")
