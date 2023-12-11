@@ -23,7 +23,7 @@ def findSum(strInput):
         sum = sum + int(strVar[0] + strVar[-1])
     return sum
 
-def printVars():
+def printSums():
     part1 = findSum(part1Parse())
     part2 = findSum(part2Parse())
 
@@ -1034,4 +1034,4 @@ cjxkxsgmql4xxgjtpdcbmsixeight
 739"""
 
 if __name__ == '__main__':
-    printVars()
+    printSums()
